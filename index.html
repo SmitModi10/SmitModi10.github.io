@@ -1,21 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Smit Modi Data Analytics Portfolio</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Smit Modi - Data Analytics Portfolio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #f4f6f8;
+    color: #333;
+    padding: 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  header img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2b7a78;
+  }
+  header h1 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #17252a;
+  }
+  header p.contact {
+    margin-top: 5px;
+    font-weight: 500;
+    color: #395b64;
+  }
+  section {
+    margin-bottom: 36px;
+  }
+  h2 {
+    border-bottom: 3px solid #3aafa9;
+    display: inline-block;
+    padding-bottom: 6px;
+    color: #17252a;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  .about p, .skills ul, .experience ul {
+    margin-top: 12px;
+  }
+  .skills ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .skills ul li {
+    background-color: #def2f1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #17252a;
+  }
+  .experience ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .experience li {
+    margin-bottom: 18px;
+  }
+  .experience li strong {
+    display: block;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #3aafa9;
+  }
+  .experience li span {
+    font-style: italic;
+    color: #395b64;
+  }
+  .projects iframe {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+</style>
 </head>
 <body>
-  <h1>Welcome to My Data Analytics Portfolio</h1>
-  <p>Here are some of my projects:</p>
+  <div class="container">
+    <header>
+      <img src="C:\Users\Modi\Pictures\smit" alt="Smit Modi Photo" />
+      <h1>Smit Modi</h1>
+      <p class="contact">mail.smitmodi@gmail.com | 07570 274480 | London, UK</p>
+    </header>
 
-  <h2>Power BI Project</h2>
-  <!-- iframe title="Car Sales Dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=3f2bec35-b516-40b0-bb03-6ce3d4a84601&autoAuth=true&ctid=1e740679-aa89-4337-9ec2-23de2d597ad5" frameborder="0" allowFullScreen="true"></iframe -->
-  <iframe width="800" height="600" src="YOUR_POWERBI_EMBED_LINK" frameborder="0" allowFullScreen="true"></iframe>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Data-driven Operations & Insights leader with 8+ years of experience managing risk, delivering actionable analytics, and leading high-performing teams. Skilled at translating complex data into impactful insights to improve operational efficiency, support vulnerable customers, and guide senior leadership decisions. Expertise in Complaints, VAIB, and Financial Health operations, reporting automation, stakeholder management, and cross-functional collaboration.</p>
+    </section>
 
-  <h2>Tableau Dashboard</h2>
-  <!-- Embed Tableau dashboard iframe here -->
-  <iframe src="YOUR_TABLEAU_EMBED_LINK" width="800" height="600"></iframe>
+    <section class="skills">
+      <h2>Skills & Expertise</h2>
+      <ul>
+        <li>Data Analysis & Insights</li>
+        <li>Advanced Reporting & Dashboards</li>
+        <li>SQL, Power BI, Tableau, Python</li>
+        <li>Risk Management & Compliance</li>
+        <li>Leadership & Team Management</li>
+        <li>Stakeholder Engagement</li>
+        <li>CRM & Operational Systems</li>
+      </ul>
+    </section>
 
-  <h2>SQL Project</h2>
-  <p>You can describe your SQL projects here and link to GitHub files or screenshots.</p>
+    <section class="experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          <strong>Smartway Pharma Ltd – London, UK</strong> <span>Nov 2022 – Present</span>
+          <p>Data & Strategy Analyst / Operations Lead. Built Power BI dashboards and automated reports, improved operational efficiency by 20%, mentored junior analysts, and delivered actionable insights to senior leadership.</p>
+        </li>
+        <li>
+          <strong>FedBank Financial Services – Ahmedabad, India</strong> <span>Dec 2021 – Sep 2022</span>
+          <p>Risk & Strategy Manager. Led portfolio analytics and risk identification initiatives, enhanced decision-making by 15%, managed team of 8 analysts, and aligned complaint handling with regulations.</p>
+        </li>
+        <li>
+          <strong>RBL Bank – Ahmedabad, India</strong> <span>Mar 2018 – Nov 2021</span>
+          <p>Senior Mortgage Underwriter. Managed underwriting team, improved portfolio performance, developed fraud mitigation strategies, and reduced process inefficiencies by 20%.</p>
+        </li>
+        <li>
+          <strong>Home First Finance Company – Ahmedabad, India</strong> <span>Nov 2015 – Mar 2018</span>
+          <p>Assistant Mortgage Underwriter. Conducted mortgage loan analyses with 98% accuracy, improved process efficiency by 20%, and mentored junior underwriters.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Power BI Project</h2>
+      <iframe width="800" height="600" src="YOUR_POWERBI_EMBED_LINK" frameborder="0" allowFullScreen="true"></iframe>
+
+      <h2>Tableau Dashboard</h2>
+      <iframe width="800" height="600" src="YOUR_TABLEAU_EMBED_LINK" frameborder="0" allowFullScreen="true"></iframe>
+    </section>
+
+  </div>
 </body>
 </html>
